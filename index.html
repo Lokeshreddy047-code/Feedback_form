@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="profile.html">Profile</a>
+    </nav>
+</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - XYZ College</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="cbit.jpeg" alt="College Logo" class="college-logo">
+            <h1>Chaitanya Bharathi Institute of Technology</h1>
+        </div>
+    </header>
+    <main>
+        <section class="login-section">
+            <div id="loginSection">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <label for="loginUsername">Username:</label>
+                    <input type="text" id="loginUsername" required>
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" required>
+                    <button type="submit">Login</button>
+                </form>
+                <button id="showRegisterBtn">Register Here</button>
+            </div>
+            <div id="registerSection" class="hidden">
+                <h2>Register</h2>
+                <form id="registerForm">
+                    <label for="registerUsername">Username:</label>
+                    <input type="text" id="registerUsername" required>
+                    <label for="registerPassword">Password:</label>
+                    <input type="password" id="registerPassword" required>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="profile.html">Profile</a>
+    </nav>       
+</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Chaitanya Bharathi Institute of Technology</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="cbit.jpeg" alt="College Logo" class="college-logo">
+            <h1>Chaitanya Bharathi Institute of Technology</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="feedback-section">
+            <h2>Student Feedback</h2>
+            <form id="feedbackForm">
+                <label for="feedback">Your Feedback:</label>
+                <textarea id="feedback" rows="4" required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+
+            <section class="previous-feedback">
+                <h2>Your Previous Feedback</h2>
+                <p id="savedFeedback">No feedback yet.</p>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
